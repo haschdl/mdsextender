@@ -1,0 +1,162 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.Service", "MDS.SharePoint\MDS.SharePoint.Service.csproj", "{0A9FED8C-4520-49BF-80F5-39CF33135472}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4CC0201-A502-4C35-9133-198EA05C327C} = {A4CC0201-A502-4C35-9133-198EA05C327C}
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5} = {C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.ActivityLibrary", "MDS.SharePoint.ActivityLibrary\MDS.SharePoint.ActivityLibrary.csproj", "{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.CustomActivities", "MDS.SharePoint.CustomActivities\MDS.SharePoint.CustomActivities.csproj", "{A4CC0201-A502-4C35-9133-198EA05C327C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5} = {C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.WorkflowExtenders", "MDS.WorkflowExtenders\MDS.WorkflowExtenders.csproj", "{33CAA40E-C57E-4FE5-B560-5D3795C5306C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.WorkflowExtenders.Test", "MDS.WorkflowExtenders.Test\MDS.WorkflowExtenders.Test.csproj", "{AA5F5CB0-258A-44D5-96E5-18779630D654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.ActivityLibrary.2013", "MDS.SharePoint.ActivityLibrary.2013\MDS.SharePoint.ActivityLibrary.2013.csproj", "{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2013", "2013", "{42098586-22BD-41B6-B47E-81EA945B2955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.Service.2013", "MDS.SharePoint.Service.2013\MDS.SharePoint.Service.2013.csproj", "{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2010", "2010", "{E97061E1-42C8-4BD8-8B16-299DEEB1B267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.SharePoint.CustomActivities.2013", "MDS.SharePoint.CustomActivities.2013\MDS.SharePoint.CustomActivities.2013.csproj", "{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs12
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MDS.SharePoint.ActivityLibrary.2013\\MDS.SharePoint.ActivityLibrary.2013.csproj
+		SccProjectTopLevelParentUniqueName1 = MDS.sln
+		SccProjectName1 = MDS.SharePoint.ActivityLibrary.2013
+		SccLocalPath1 = MDS.SharePoint.ActivityLibrary.2013
+		SccProjectUniqueName2 = MDS.SharePoint.ActivityLibrary\\MDS.SharePoint.ActivityLibrary.csproj
+		SccProjectTopLevelParentUniqueName2 = MDS.sln
+		SccProjectName2 = MDS.SharePoint.ActivityLibrary
+		SccLocalPath2 = MDS.SharePoint.ActivityLibrary
+		SccProjectUniqueName3 = MDS.SharePoint.CustomActivities.2013\\MDS.SharePoint.CustomActivities.2013.csproj
+		SccProjectTopLevelParentUniqueName3 = MDS.sln
+		SccProjectName3 = MDS.SharePoint.CustomActivities.2013
+		SccLocalPath3 = MDS.SharePoint.CustomActivities.2013
+		SccProjectUniqueName4 = MDS.SharePoint.CustomActivities\\MDS.SharePoint.CustomActivities.csproj
+		SccProjectTopLevelParentUniqueName4 = MDS.sln
+		SccProjectName4 = MDS.SharePoint.CustomActivities
+		SccLocalPath4 = MDS.SharePoint.CustomActivities
+		SccProjectUniqueName5 = MDS.SharePoint.Service.2013\\MDS.SharePoint.Service.2013.csproj
+		SccProjectTopLevelParentUniqueName5 = MDS.sln
+		SccProjectName5 = MDS.SharePoint.Service.2013
+		SccLocalPath5 = MDS.SharePoint.Service.2013
+		SccProjectUniqueName6 = MDS.SharePoint\\MDS.SharePoint.Service.csproj
+		SccProjectTopLevelParentUniqueName6 = MDS.sln
+		SccProjectName6 = MDS.SharePoint
+		SccLocalPath6 = MDS.SharePoint
+		SccProjectUniqueName7 = MDS.WorkflowExtenders.Test\\MDS.WorkflowExtenders.Test.csproj
+		SccProjectName7 = MDS.WorkflowExtenders.Test
+		SccLocalPath7 = MDS.WorkflowExtenders.Test
+		SccProjectUniqueName8 = MDS.WorkflowExtenders\\MDS.WorkflowExtenders.csproj
+		SccProjectName8 = MDS.WorkflowExtenders
+		SccLocalPath8 = MDS.WorkflowExtenders
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 2013|Any CPU = Debug 2013|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Debug2013|Any CPU = Debug2013|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug 2013|Any CPU.Deploy.0 = Debug 2013|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Debug2013|Any CPU.Deploy.0 = Debug 2013|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9FED8C-4520-49BF-80F5-39CF33135472}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug 2013|Any CPU.Deploy.0 = Debug 2013|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Debug2013|Any CPU.Deploy.0 = Debug 2013|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CC0201-A502-4C35-9133-198EA05C327C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Debug2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CAA40E-C57E-4FE5-B560-5D3795C5306C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Debug2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5F5CB0-258A-44D5-96E5-18779630D654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug 2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug 2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug2013|Any CPU.ActiveCfg = Debug 2013|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Debug2013|Any CPU.Build.0 = Debug 2013|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug 2013|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug 2013|Any CPU.Build.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug 2013|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug2013|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug2013|Any CPU.Build.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Debug2013|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug 2013|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug 2013|Any CPU.Build.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug 2013|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug2013|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug2013|Any CPU.Build.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Debug2013|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C905454D-A9D5-4FF8-BD2D-E917E1A95BE5} = {E97061E1-42C8-4BD8-8B16-299DEEB1B267}
+		{A4CC0201-A502-4C35-9133-198EA05C327C} = {E97061E1-42C8-4BD8-8B16-299DEEB1B267}
+		{0A9FED8C-4520-49BF-80F5-39CF33135472} = {E97061E1-42C8-4BD8-8B16-299DEEB1B267}
+		{2E65DE4E-7AA0-4AD3-A7E0-83185132287D} = {42098586-22BD-41B6-B47E-81EA945B2955}
+		{DC30EE2D-94A4-4311-A2FE-2CC33C9C28C9} = {42098586-22BD-41B6-B47E-81EA945B2955}
+		{5F3A3B25-EA30-4D1B-AC08-D21870399BF1} = {42098586-22BD-41B6-B47E-81EA945B2955}
+	EndGlobalSection
+EndGlobal

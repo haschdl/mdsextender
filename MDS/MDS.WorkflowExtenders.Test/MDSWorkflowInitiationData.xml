@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExternalAction>
+  <Type>TEST</Type>
+  <SendData>1</SendData>
+  <Server_URL>This is my test!</Server_URL>
+  <Action_ID>Test Workflow</Action_ID>
+  <Model_ID>5</Model_ID>
+  <Model_Name>Customer Model</Model_Name>
+  <Entity_ID>34</Entity_ID>
+  <Entity_Name>Customer</Entity_Name>
+  <Version_ID>8</Version_ID>
+  <MemberType_ID>1</MemberType_ID>
+  <Member_ID>12</Member_ID>
+  <MemberData>
+    <ID>12</ID>
+    <Version_ID>8</Version_ID>
+    <ValidationStatus_ID>3</ValidationStatus_ID>
+    <ChangeTrackingMask>0</ChangeTrackingMask>
+    <EnterDTM>2011-02-25T20:16:36.650</EnterDTM>
+    <EnterUserID>2</EnterUserID>
+    <EnterUserName>MyUserName</EnterUserName>
+    <EnterUserMuid>EEF91D48-B673-4D83-B95F-5A363C11DE91</EnterUserMuid>
+    <EnterVersionId>8</EnterVersionId>
+    <EnterVersionName>VERSION_1</EnterVersionName>
+    <EnterVersionMuid>52B788C2-2750-4651-9DB0-2CB05A88AA5A</EnterVersionMuid>
+    <LastChgDTM>2011-02-25T20:16:36.650</LastChgDTM>
+    <LastChgUserID>2</LastChgUserID>
+    <LastChgUserName>MyUserName</LastChgUserName>
+    <LastChgUserMuid>EEF91D48-B673-4D83-B95F-5A363C11DE91</LastChgUserMuid>
+    <LastChgVersionId>8</LastChgVersionId>
+    <LastChgVersionName>VERSION_1</LastChgVersionName>
+    <LastChgVersionMuid>52B788C2-2750-4651-9DB0-2CB05A88AA5A</LastChgVersionMuid>
+    <Name>ABB Oy</Name>
+    <Code>C003ABBFI</Code>
+  </MemberData>
+</ExternalAction>

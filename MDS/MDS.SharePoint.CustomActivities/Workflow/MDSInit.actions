@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkflowInfo>
+  <Actions Sequential="then"
+           Parallel="and">
+    <Action Name="MDS Workflow Initiation Activity"
+            ClassName="MDS.SharePoint.ActivityLibrary.MDSInit"
+            Assembly="MDS.SharePoint.ActivityLibrary, Version=15.0.0.0, Culture=neutral, PublicKeyToken=5296079d379a1976"
+            AppliesTo="all"
+            Category="Master Data Services">
+      <RuleDesigner Sentence="Outputs model name to %1, entity name to %2, member code to %3 and member name to %4.">
+        <FieldBind Field="ModelName"
+                   Text="Model Name"
+                   DesignerType="ParameterNames"
+                   Id="1"/>
+        <FieldBind Field="EntityName"
+                   Text="Entity Name"
+                   DesignerType="ParameterNames"
+                   Id="2"/>
+        <FieldBind Field="MemberCode"
+                   Text="Member Code"
+                   DesignerType="ParameterNames"
+                   Id="3"/>
+        <FieldBind Field="MemberName"
+                   Text="Member Name"
+                   DesignerType="ParameterNames"
+                   Id="4"/>
+        
+      </RuleDesigner>
+      <Parameters>
+        <Parameter Name="__Context"
+                   Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext"
+                   Direction ="In"/>
+        <Parameter Name="__ActivationProperties"
+                     Type="Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties, Microsoft.SharePoint"
+                     Direction="Out" />
+        <Parameter Name="ModelName"
+                   Type="System.String, mscorlib"
+                   Direction="Out" />
+        <Parameter Name="EntityName"
+                   Type="System.String, mscorlib"
+                   Direction="Out" />
+        <Parameter Name="MemberCode"
+                   Type="System.String, mscorlib"
+                   Direction="Out" />
+        <Parameter Name="MemberName"
+                   Type="System.String, mscorlib"
+                   Direction="Out" />       
+      </Parameters>
+    </Action>
+  </Actions>
+</WorkflowInfo>

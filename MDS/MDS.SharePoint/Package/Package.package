@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c889d6cd-5d3f-4d69-9b7d-b7f0c6f54aff" solutionId="c889d6cd-5d3f-4d69-9b7d-b7f0c6f54aff" resetWebServer="false" name="MDS.SharePoint" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="MDS.SharePoint.ActivityLibrary.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\MDS.SharePoint.ActivityLibrary\MDS.SharePoint.ActivityLibrary.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="8aa513a5-130b-4ea7-933f-9245d452a326" />
+    <featureReference itemId="ef708714-b984-424b-a904-89186eca0ebd" projectPath="..\MDS.SharePoint.CustomActivities\MDS.SharePoint.CustomActivities.csproj" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="10a5228c-00fe-4a11-a480-11e2b1e507d0" />
+  </projectItems>
+</package>
