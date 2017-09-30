@@ -8,4 +8,4 @@ In SharePoint 2013, the web service is available at http://server/_layouts/15/MD
 * StartDeclarativeSiteWorkflo 
 * StartSiteWorkflow
 
-![](Web Service for Site Workflow activation_WSOperations.png)
+![](Web%20Service%20for%20Site%20Workflow%20activation_WSOperations.png)
