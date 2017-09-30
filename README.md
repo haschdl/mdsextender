@@ -1,5 +1,8 @@
 # Background
 The business rules created in SQL Server Master Data Services can call external workflows, such as SharePoint site workflows. Without additional customization, this integration is only supported if MDS and SharePoint are installed in the same server.
+
+##Update
+This project was migrated from Codeplex and its being kept for reference purposes only.
  
 # Project Description
 This project consists of three components:
