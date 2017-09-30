@@ -3,7 +3,7 @@ The business rules created in SQL Server Master Data Services can call external 
  
 # Project Description
 This project consists of three components:
-![](docs/Home_MDS Custom Tools.png)
+![](docs/Home_MDS_Custom_Tools.png)
 
 ## 1 - [Web Service for Site Workflow activation](Web-Service-for-Site-Workflow-activation)
 A web service to be deployed to SharePoint server. This web service overcomes a limitation in SharePoint web services, which prevents site workflows to be initiated via web service calls. This component is independent from the others, and be used by other systems or solutions. Note: I don’t know if this limitation is still present in SharePoint 2013.
