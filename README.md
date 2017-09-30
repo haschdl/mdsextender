@@ -1,8 +1,10 @@
 # Background
-The business rules created in SQL Server Master Data Services can call external workflows, such as SharePoint site workflows. Without additional customization, this integration is only supported if MDS and SharePoint are installed in the same server.
+The business rules created in SQL Server Master Data Services can trigger external workflows, such as SharePoint site workflows. Without additional customization, this integration is only supported if MDS and SharePoint are installed in the same server, which is not a common scenario. The purpose of this project was de-couple MDS and SharePoint, so that MDS could trigger a SharePoint workflow in a separate server. This enables non-developer to create approval workflows in SharePoint, extending MDS capabilities.
+
+Technically, this is achieved by deploying a custom web service to a SharePoint server, and a MDS custom workflow. For more information on MDS custom workflows, see the documentation at https://docs.microsoft.com/en-us/sql/master-data-services/develop/create-a-custom-workflow-master-data-services.
 
 ## Update
-This project was migrated from Codeplex and its being kept for reference purposes only.
+This project was migrated from Codeplex and its being kept for reference purposes only. While the MDS related code is still relevant for newer versions of SQL Server, the MDS components are not applicable to Office 365 and might require changes to work with SharePoint 2016. 
  
 # Project Description
 This project consists of three components:
